@@ -1,0 +1,54 @@
+tests/test_contact.py::ContactTest::test_contact_page
+--------------------------------------------------------------------
+Last Page: https://www.saleeasy.org/contact/
+ Duration: 4.04s
+  Browser: Chrome 123.0.6312.105
+   Driver: chromedriver 123.0.6312.86
+Timestamp: 1712247924  (Unix Timestamp)
+     Date: Thursday, 4 April 2024
+     Time: 8:25:24 PM  (+04, UTC+04:00)
+--------------------------------------------------------------------
+Traceback:
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/tests/test_contact.py", line 6, in test_contact_page
+    self.open("https://www.saleeasy.org/contact/")
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 272, in open
+    self.driver.get(url)
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+Exception: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+0   chromedriver                        0x000000010a7d8128 chromedriver + 4596008
+1   chromedriver                        0x000000010a7cfe93 chromedriver + 4562579
+2   chromedriver                        0x000000010a3d339a chromedriver + 381850
+3   chromedriver                        0x000000010a3cbb51 chromedriver + 351057
+4   chromedriver                        0x000000010a3bd1d1 chromedriver + 291281
+5   chromedriver                        0x000000010a3be7a5 chromedriver + 296869
+6   chromedriver                        0x000000010a3bd47d chromedriver + 291965
+7   chromedriver                        0x000000010a3bcec0 chromedriver + 290496
+8   chromedriver                        0x000000010a3bcd47 chromedriver + 290119
+9   chromedriver                        0x000000010a3bb089 chromedriver + 282761
+10  chromedriver                        0x000000010a3bb46a chromedriver + 283754
+11  chromedriver                        0x000000010a3d5dde chromedriver + 392670
+12  chromedriver                        0x000000010a45fac5 chromedriver + 957125
+13  chromedriver                        0x000000010a43f142 chromedriver + 823618
+14  chromedriver                        0x000000010a45f14d chromedriver + 954701
+15  chromedriver                        0x000000010a43eee3 chromedriver + 823011
+16  chromedriver                        0x000000010a40fbe4 chromedriver + 629732
+17  chromedriver                        0x000000010a41079e chromedriver + 632734
+18  chromedriver                        0x000000010a79e042 chromedriver + 4358210
+19  chromedriver                        0x000000010a7a2c8d chromedriver + 4377741
+20  chromedriver                        0x000000010a7a2603 chromedriver + 4376067
+21  chromedriver                        0x000000010a7a2f35 chromedriver + 4378421
+22  chromedriver                        0x000000010a787a65 chromedriver + 4266597
+23  chromedriver                        0x000000010a7a32bd chromedriver + 4379325
+24  chromedriver                        0x000000010a77a0b0 chromedriver + 4210864
+25  chromedriver                        0x000000010a7c0af8 chromedriver + 4500216
+26  chromedriver                        0x000000010a7c0c71 chromedriver + 4500593
+27  chromedriver                        0x000000010a7cfad3 chromedriver + 4561619
+28  libsystem_pthread.dylib             0x00007ff806f261d3 _pthread_start + 125
+29  libsystem_pthread.dylib             0x00007ff806f21bd3 thread_start + 15

@@ -1,0 +1,27 @@
+tests/test_home.py::HomeTest::test_home_page
+--------------------------------------------------------------------
+Last Page: https://www.instagram.com/challenge/AXEAWmndt1L5ZGLWPsMHOn4YcIBFX9GWHFn0muZVkO7u9Om0-QUN3BIwJ-lTGVdNJJs/Afy6Zd5hawD9YRNEHAS7y898o7YV9TeMZ8T1CEAR4gzvtCkybXZvHEr3-ws8tSJYzEqGfMxVY7sK3w/?challenge_context=Af4yHF9pAbEAurx8TisjrnrHiYcqJYVynP-yi19g2SALUVCTOx7RChApm4I0zlozlzVCQcYgldMJhbo1-3FvZ9gbM0lr4THkHYvDnjTGg1mO_CHqP0VlksdIkE5RxoEWMfn2bfHxZkszuALLuxQyKuPSnHesvK25hKKtX31D0SVSpGwrXpoQ6HEnGDul5Jqw2wj_E0eYWvWDy-jiW17kqZaDZTbbJvs8-MmU_Xd7mDq0ngHOmJR5wuXev5Ma0BiAJlZ0LOwKYsnVXdDolrW76X0dGTGU4GC2aSmW2aiSiQMoggO4eDYeI5avqUcx39LRm0VBvm5IvJrYxLJovEz5b0fGxFV-H0wsqNsGtkipm3Psaez67vCWP9eJMT8e5JJVwx-MLIq8EMHcJOtuhweiEC7ZJLLObN2lOlCn5IIUSQ0_hTcU23H6hFo77QtIKLK5CmZNbvlPctpgwbW4G5Mczu5tTGB-jEmgHoyY4fjgjFU-wovGA3I_L9v-3OEVHYffTD5kKI6VNMnkIkSex2-gyNgVMkaJerhWq3azJPgAQ1OZZYGN3jYPF13POuw3MShQNN-PTM5KymtYcpkUylUrOgK2oVQnN_wnXnYtSJKNKwXzGsTrGkcRna7ncLYyRurCPlNYER6AWeX_a5DZyyT5PC3T0sQas9bbLMU2fyPYQZ6r0CC_TpKziiZyeYqSL5OwiA0pZSwf6GtFNaz67HeDcnB4KgMPoOYHVd3zRvpTJJLf8Y7U_6FWw53WjxsVHfE9h0R5VJ6mKMFuMhGlhnV1hqSwI1N1dYYWoDyi1m4g29jkqeAsoHB3KQXSNoiXAzvx_phXBgFouNURw4FVskK6mZdtmRW8Dw7BAzOtf84zZBauKkg7eBhs-cSoebDul-jxzsT529pLX-hM06q1ZTqWbc6RXXCGEAkYOm4A7_664IsgJ8RJ_0oY2hCVUOktRLDuSSM8NLN8RV8afwLmZWboh2rb2N2x1VzE01Nb0NV1j6FzkXK6R195WJ_NqwbVd4lqDLZ0MG9JKtBBgt4EJ1aJXnyrxlZwYfWRPmm_skendSp9mvppKltvKqy8_EeBKraGSHkTrKwu66AUv9EtS0uySL4s0r2H6f1caIdThmrFnNscwkttSYcoXey6LhpXpseolCzPywJNTNqtQ1ER4CJzJcJZE3jxzd56DkdIIP1Az29LQuAeWDbR8KT8jWTY_Ve0yMOCx_gpnrvOwoLUh1Kxn_qrdlES9GiUu3YrspB5xs-16YllwRP-I31H3C-Zr0hI1u92ze60TQbx0nN4sJWAYfsn2chbFt_lVtZ-khcPE-MJLeVL3tfxAPmkwYMnDBT57srjkVWW3fYUGh1i00GRfy8mSziNQ4zj5watufi8AvgxT38XLMbQlqkLkw
+ Duration: 7.32s
+  Browser: Chrome 123.0.6312.105
+   Driver: chromedriver 123.0.6312.86
+Timestamp: 1712247917  (Unix Timestamp)
+     Date: Thursday, 4 April 2024
+     Time: 8:25:17 PM  (+04, UTC+04:00)
+--------------------------------------------------------------------
+Traceback:
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/tests/test_home.py", line 25, in test_home_page
+    self.assert_title(hp.get_title)
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 7443, in assert_title
+    self.assertEqual(
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/case.py", line 873, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/case.py", line 1253, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 8224, in fail
+    super().fail(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/unittest/case.py", line 703, in fail
+    raise self.failureException(msg)
+Exception: 'Domus.am' != "Help us confirm it's you • Instagram"
+- Domus.am
++ Help us confirm it's you • Instagram
+ : Expected page title [Domus.am] does not match the actual title [Help us confirm it's you • Instagram]!

@@ -1,0 +1,54 @@
+tests/test_home.py::HomeTest::test_menu_links
+--------------------------------------------------------------------
+Last Page: https://www.saleeasy.org/
+ Duration: 4.55s
+  Browser: Chrome 123.0.6312.105
+   Driver: chromedriver 123.0.6312.86
+Timestamp: 1712247925  (Unix Timestamp)
+     Date: Thursday, 4 April 2024
+     Time: 8:25:25 PM  (+04, UTC+04:00)
+--------------------------------------------------------------------
+Traceback:
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/tests/test_home.py", line 51, in test_menu_links
+    self.open("https://www.saleeasy.org/")
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/seleniumbase/fixtures/base_case.py", line 272, in open
+    self.driver.get(url)
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 356, in get
+    self.execute(Command.GET, {"url": url})
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+    self.error_handler.check_response(response)
+  File "/Users/vardanmikayelyan/PycharmProjects/pythonProject/pythonProject3/venv/lib/python3.11/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+Exception: Message: unknown error: net::ERR_NAME_NOT_RESOLVED
+  (Session info: chrome=123.0.6312.105)
+Stacktrace:
+0   chromedriver                        0x0000000104547128 chromedriver + 4596008
+1   chromedriver                        0x000000010453ee93 chromedriver + 4562579
+2   chromedriver                        0x000000010414239a chromedriver + 381850
+3   chromedriver                        0x000000010413ab51 chromedriver + 351057
+4   chromedriver                        0x000000010412c1d1 chromedriver + 291281
+5   chromedriver                        0x000000010412d7a5 chromedriver + 296869
+6   chromedriver                        0x000000010412c47d chromedriver + 291965
+7   chromedriver                        0x000000010412bec0 chromedriver + 290496
+8   chromedriver                        0x000000010412bd47 chromedriver + 290119
+9   chromedriver                        0x000000010412a089 chromedriver + 282761
+10  chromedriver                        0x000000010412a46a chromedriver + 283754
+11  chromedriver                        0x0000000104144dde chromedriver + 392670
+12  chromedriver                        0x00000001041ceac5 chromedriver + 957125
+13  chromedriver                        0x00000001041ae142 chromedriver + 823618
+14  chromedriver                        0x00000001041ce14d chromedriver + 954701
+15  chromedriver                        0x00000001041adee3 chromedriver + 823011
+16  chromedriver                        0x000000010417ebe4 chromedriver + 629732
+17  chromedriver                        0x000000010417f79e chromedriver + 632734
+18  chromedriver                        0x000000010450d042 chromedriver + 4358210
+19  chromedriver                        0x0000000104511c8d chromedriver + 4377741
+20  chromedriver                        0x0000000104511603 chromedriver + 4376067
+21  chromedriver                        0x0000000104511f35 chromedriver + 4378421
+22  chromedriver                        0x00000001044f6a65 chromedriver + 4266597
+23  chromedriver                        0x00000001045122bd chromedriver + 4379325
+24  chromedriver                        0x00000001044e90b0 chromedriver + 4210864
+25  chromedriver                        0x000000010452faf8 chromedriver + 4500216
+26  chromedriver                        0x000000010452fc71 chromedriver + 4500593
+27  chromedriver                        0x000000010453ead3 chromedriver + 4561619
+28  libsystem_pthread.dylib             0x00007ff806f261d3 _pthread_start + 125
+29  libsystem_pthread.dylib             0x00007ff806f21bd3 thread_start + 15
